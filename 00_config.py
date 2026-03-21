@@ -61,11 +61,15 @@ print("Core libraries imported successfully.")
 
 # COMMAND ----------
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv("/Workspace/Users/hsp498@gmail.com/.env")
 # AWS Credentials — used for Excel file reads only
-ACCESS_KEY = "YOUR_ACCESS_KEY_HERE"
-SECRET_KEY  = "YOUR_SECRET_KEY_HERE"
-BUCKET      = "ecom-analytics-project-2026"
-REGION      = "us-east-2"
+ACCESS_KEY = os.getenv("ACCESS_KEY")
+SECRET_KEY  = os.getenv("SECRET_KEY")
+BUCKET      = os.getenv("BUCKET")
+REGION      = os.getenv("REGION")
 
 # S3 Base Path — authenticated via Databricks External Location
 # External Location: db_s3_external_databricks-s3-ingest-df268
