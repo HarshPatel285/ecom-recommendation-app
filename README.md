@@ -190,7 +190,7 @@ AWS credentials are stored in a `.env` file using `python-dotenv` and are never 
 
 ## Contact
 
-**Harmanpreet Singh**  
+**Harsh Patel**  
 hsp498@gmail.com  
 University of Niagara Falls Canada  
 DAMO630 — Advanced Data Analytics
