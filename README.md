@@ -2,7 +2,7 @@
 
 **Course:** DAMO630 — Advanced Data Analytics  
 **University:** University of Niagara Falls Canada  
-**Student:** Harmanpreet Singh  
+**Student:** Harsh Patel
 **Email:** hsp498@gmail.com  
 **Date:** March 2026  
 
